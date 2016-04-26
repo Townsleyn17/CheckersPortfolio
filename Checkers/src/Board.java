@@ -50,8 +50,6 @@ public class Board extends JComponent
 
    private List<PosCheck> posChecks;
 
-   public Graphics2D boardObj;
-   
    public Board()
    {
       posChecks = new ArrayList<>();
@@ -194,8 +192,6 @@ public class Board extends JComponent
             g.setColor((g.getColor() == Color.BLACK) ? Color.WHITE : Color.BLACK);
          }
       }
-      
-      boardObj = (Graphics2D)g;
    }
 
    // positioned checker helper class
@@ -207,5 +203,3 @@ public class Board extends JComponent
       public int cy;
    }
 }
-
-//nick is an idiot
