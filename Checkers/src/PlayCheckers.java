@@ -36,7 +36,7 @@ public class PlayCheckers extends JFrame
       board.add(new Checker(CheckerType.RED_REGULAR), 3, 2);
       board.add(new Checker(CheckerType.RED_REGULAR), 3, 4);
       board.add(new Checker(CheckerType.RED_REGULAR), 3, 6);
-      //board.add(new Checker(CheckerType.RED_REGULAR), 3, 8);
+      board.add(new Checker(CheckerType.RED_REGULAR), 3, 8);
       setContentPane(board);
 
       pack();
